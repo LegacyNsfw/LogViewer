@@ -1,0 +1,8 @@
+C:\Users\Public\Documents\Mercurial\DotNet\Projects\Tuning\LogViewer\bin\Debug\LogViewer.exe
+C:\Users\Public\Documents\Mercurial\DotNet\Projects\Tuning\LogViewer\bin\Debug\LogViewer.pdb
+C:\Users\Public\Documents\Mercurial\DotNet\Projects\Tuning\LogViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Documents\Mercurial\DotNet\Projects\Tuning\LogViewer\obj\Debug\LogViewer.LogForm.resources
+C:\Users\Public\Documents\Mercurial\DotNet\Projects\Tuning\LogViewer\obj\Debug\LogViewer.Properties.Resources.resources
+C:\Users\Public\Documents\Mercurial\DotNet\Projects\Tuning\LogViewer\obj\Debug\LogViewer.csproj.GenerateResource.Cache
+C:\Users\Public\Documents\Mercurial\DotNet\Projects\Tuning\LogViewer\obj\Debug\LogViewer.exe
+C:\Users\Public\Documents\Mercurial\DotNet\Projects\Tuning\LogViewer\obj\Debug\LogViewer.pdb

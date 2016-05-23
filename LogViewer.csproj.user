@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>C:\Users\Public\Documents\Mercurial\Tuning\LegacyGT\v160\romraiderlog_20110809_001254.csv</StartArguments>
+  </PropertyGroup>
+</Project>
