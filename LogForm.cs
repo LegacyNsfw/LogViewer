@@ -41,7 +41,7 @@ namespace LogViewer
             try
             {
                 this.grid.RowHeadersWidth = 4;
-                   
+
                 foreach (string headerName in this.file.Headers)
                 {
                     DataGridViewColumn column = new DataGridViewColumn();
@@ -49,7 +49,7 @@ namespace LogViewer
                     column.CellTemplate = new DataGridViewTextBoxCell();
                     column.Width = 50;
                     this.grid.Columns.Add(column);
-                    
+
                 }
 
                 foreach (ReadOnlyList<string> row in this.file.Rows)
@@ -59,7 +59,7 @@ namespace LogViewer
                     this.grid.Rows.Add(gridRow);
                 }
 
-                for(int rowIndex = 0; rowIndex < this.grid.Rows.Count; rowIndex++)
+                for (int rowIndex = 0; rowIndex < this.grid.Rows.Count; rowIndex++)
                 {
                     for (int columnIndex = 0; columnIndex < this.grid.Columns.Count; columnIndex++)
                     {
@@ -86,6 +86,11 @@ namespace LogViewer
 
         private void grid_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if ((e.RowIndex < 0) || (e.RowIndex >= this.grid.Rows.Count))
+            {
+                return;
+            }
+
             this.grid.Rows[e.RowIndex].Selected = true;
         }
     }
